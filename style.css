@@ -13,11 +13,12 @@ body {
 .header-container .logo img{
     width:90px;
     height: 105px;
+    padding: 5px;
 }
 
 .header-container {
 display: flex;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
     height:100%;
     box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
@@ -58,7 +59,7 @@ font-weight: 700;
 
 .header {
     height:101px;
-    
+    position: relative;
 
 }
 
@@ -94,12 +95,21 @@ font-weight: 700;
     padding-top: 8px;
     display: flex;
     padding-right: 18px;
+    padding: 7px 16px;
+    border:1px solid;
+    border-radius: 50px;
 }
+.right-nav .sign-in {
+    padding-right: 7px;
+}
+
 
 .right-nav .join-now span:hover {
     color: #008248;
     cursor: pointer;
     font-size: 13px; 
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
 }
 
 .right-nav .join-now  span {
@@ -108,4 +118,9 @@ font-weight: 700;
     display: flex;
     padding-right: 18px;
     padding-top: 8px;
+    padding: 7px 16px;
+    border:1px solid;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
 }
