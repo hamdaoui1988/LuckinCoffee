@@ -74,12 +74,24 @@ color: #1e3932;
     height: 100%;
 }
 
+
+
+.main-container .rewards .image img{
+    width: 100%;
+}
+
+.main-container .happy-place .image img{
+    width: 100%;
+}
+
+
 .happy-place
 
 {
     display: flex;
     margin-bottom: 32px;
 }
+
 
 .happy-place .text {
     width: 50%;
@@ -135,4 +147,85 @@ font-weight: 400;
 font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
 line-height: 1.5;
 letter-spacing: -.01em;
+}
+
+
+
+
+.cta {
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 8px;
+    padding-right: 18px;
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    width: fit-content;
+
+}
+
+.cta:hover {
+    background-color: #1e3932;
+    color: white;
+}
+
+
+.order {
+    display: flex;
+}
+
+.order-left image {
+    width:100%;
+}
+.order-left image img{
+    width:100%;
+}
+.order-right image {
+    width:100%;
+}
+.order-right image img{
+    width:100%;
+}
+
+
+
+
+.order .order-left {
+    margin-bottom: 32px;
+    width: 50%;
+    margin-right: 13px;
+}
+
+
+.order .order-left .text {
+    height: 270px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    background-color: #D4E9E2
+    
+
+
+}
+
+.order .order-right {
+    margin-bottom: 32px;
+    width: 50%;
+    margin-left: 13px;
+}
+
+
+.order .order-right .text {
+    height: 270px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    background-color: #D4E9E2
+    
+
 }
