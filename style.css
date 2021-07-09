@@ -8,6 +8,21 @@ body {
 
 }
 
+.find-store {
+    display: flex;
+    fill: #ace63c;
+}
+
+.right-nav .find-store span {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    padding-right: 18px;
+    padding-bottom: 0px;
+    align-items: flex-end;
+}
+
+
 
 
 .header-container .logo img{

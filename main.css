@@ -229,3 +229,49 @@ letter-spacing: -.01em;
     
 
 }
+/* celebrating */
+
+.main-container .celebrating .image img{
+    width: 100%;
+}
+
+
+.celebrating
+
+{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+
+.celebrating .text {
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    background-color: #f1f8f6
+    
+
+}
+
+.celebrating .text .cta{
+font-size: 13px;
+font-weight: 700;
+padding-top: 8px;
+display: flex;
+padding-right: 18px;
+padding: 7px 16px;
+border: 1px solid;
+border-radius: 50px;
+cursor: pointer;
+}
+.celebrating .text .cta:hover{
+background-color: rgba(30,57,50,.1);
+color: #1e3932;
+}
+
+.celebrating .image {
+    width: 50%;
+    height: 100%;
+}
