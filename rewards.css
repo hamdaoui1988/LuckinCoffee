@@ -43,3 +43,96 @@ font-size: 2.2rem
 .image-right {
     width:50%;
 }
+
+.getting-started {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.getting-started span {
+    color: rgba(0,0,0,.87);
+    
+    letter-spacing: -.01em;
+    font-weight: 600!important;
+}
+
+.many-options {
+  display:flex;
+  max-width: 1100px;
+    margin: 0 auto;  
+}
+
+.first-options .numbers h1 {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    background: #fff;
+    border: 3px solid #000;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+.second-options .numbers span {
+    color: #183286;  
+}
+.third-options .numbers span {
+    color: #183286;
+}
+
+
+
+.first-options {
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+align-items: center;
+margin-left: 30px;
+margin-top:20px;
+}
+
+
+.second-options {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top:20px;
+    }
+
+    
+.third-options {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top:20px;
+    }
+
+.number h1 {
+    padding: 8px 18px;
+    border: 3px solid #1F35AF;
+    border-radius: 50%;
+}
+
+.title h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgba(0,0,0,.87);
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.description span {
+    text-align: center
+}
+   
