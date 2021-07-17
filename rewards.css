@@ -1,0 +1,45 @@
+.top-reward-wrapper {
+    display: flex;
+    max-width:1100px;
+    margin:0 auto;
+}
+
+.text-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.text-left h1 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+}
+
+.text-left h1 {
+font-size: 2.2rem
+
+}
+
+.text-left span {
+    margin:10px;
+    border:1px solid black;
+    border-radius: 50px;
+    padding: 7px 16px;
+    background-color: #2F7DE1;
+    border-color: #2F7DE1;
+    color:white;
+    
+}
+
+.text-left span:hover {
+    cursor: pointer;
+}
+
+.image-right {
+    width:50%;
+}
